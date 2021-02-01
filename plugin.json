@@ -10,15 +10,15 @@
 		{ "hook": "filter:topic.build", "method": "addUserToTopic" }
 	],
 	"scripts": [
-		"lib/modules/toggleTheme.js",
-		"lib/modules/nprogress.js",
-		"lib/modules/autohidingnavbar.min.js",
-		"lib/modules/quickreply.js",
-		"lib/oxide.js"
+		"public/modules/toggleTheme.js",
+		"public/modules/nprogress.js",
+		"public/modules/autohidingnavbar.min.js",
+		"public/modules/quickreply.js",
+		"public/oxide.js"
 	],
 	"modules": {
 		"pulling.js": "node_modules/pulling/build/pulling-drawer.js"
 	},
-	"acpScripts": ["lib/admin.js"],
+	"acpScripts": ["public/admin.js"],
 	"languages": "languages"
 }

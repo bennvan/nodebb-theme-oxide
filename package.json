@@ -26,7 +26,7 @@
 			"url": "https://github.com/youhosi"
 		}
 	],
-	"main": "theme.less",
+	"main": "library.js",
 	"husky": {
 		"hooks": {
 			"pre-commit": "lint-staged"
